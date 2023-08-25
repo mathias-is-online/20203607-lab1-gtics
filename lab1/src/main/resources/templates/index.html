@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 
 <head>
     <meta charset="utf-8">
@@ -34,6 +34,7 @@
                 <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
                     <div class="input-group">
                         <div class="form-outline">
+                            <img class="w-100" th:src="@{ruta}" alt="Image">
                             <input type="search" id="form1" class="form-control" />
                             <label class="form-label" for="form1">Encuentra tu vuelo preferido</label>
                         </div>
