@@ -8,7 +8,7 @@ public class Home {
 
     @GetMapping(value = "")
     public String listar() {
-        return "job/lista";
+        return "index";
     }
 
 
